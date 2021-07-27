@@ -9,4 +9,5 @@ insert into albums (artist, name, release_date, sales, genre)values
 ('Eagles', 'Their greatest hits(1971-1975)', '1976', 41.2, 'Country rock, soft rock, folk rock'),
 ('Bee Gees', 'Saturday night fever', '1977', 21.6, 'Disco'),
 ('Fleetwood Mac', 'Rumours', '1977', 27.9, 'Soft rock'),
-('Shania Twain', 'Come on over', '1998', 36.6, 'Country, pop');
+('Shania Twain', 'Come on over', '1998', 36.6, 'Country, pop'),
+('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', '1967', 32, 'Rock');
