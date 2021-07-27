@@ -2,26 +2,26 @@ use codeup_test_db;
 
 
 SELECT *
-from albums
-where artist = 'Pink Floyd';
+FROM albums
+WHERE artist = 'Pink Floyd';
 
 SELECT *
-from albums
-where name = 'Sgt. Peppers Lonely Hearts Club Band';
+FROM albums
+WHERE name = 'Sgt. Peppers Lonely Hearts Club Band';
 
 SELECT genre
-from albums
-where name = 'Nevermind';
+FROM albums
+WHERE name = 'Nevermind';
 
 SELECT *
-from albums
-where release_date >= 1990
-  and release_date < 2000;
+FROM albums
+WHERE release_date >= 1990
+AND release_date < 2000;
 
 SELECT *
-from albums
-where sales < 20;
+FROM albums
+WHERE sales < 20;
 
 SELECT *
-from albums
-where genre = 'rock';
+FROM albums
+WHERE genre = 'rock';

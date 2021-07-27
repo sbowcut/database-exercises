@@ -10,11 +10,11 @@ Use codeup_test_db;
 #     Move all the albums before 1980 back to the 1800s.
 #     Change 'Michael Jackson' to 'Peter Jackson'
 #     Add SELECT statements after each UPDATE so you can see the results of your handiwork.
-select *
-from albums;
+SELECT *
+FROM albums;
 
-select *
-from albums
+SELECT *
+FROM albums
 where release_date < 1980;
 
 SELECT *
