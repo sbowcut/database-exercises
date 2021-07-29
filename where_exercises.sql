@@ -21,7 +21,7 @@ OR first_name = 'Maya';
 SELECT *
 FROM employees.employees
 WHERE (first_name = 'Irena' OR first_name = 'Vidya' OR first_name = 'Maya')
-And gender = 'm';
+AND gender = 'm';
 
 SELECT *
 FROM employees.employees
