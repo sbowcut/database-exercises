@@ -1,4 +1,4 @@
-Use codeup_test_db;
+USE codeup_test_db;
 # Write SELECT statements to output each of the following with a caption:
 #
 #     All albums in your table.
@@ -25,12 +25,12 @@ UPDATE albums
 SET sales = sales * 10
 WHERE artist = 'Micheal Jackson';
 
-update albums
-set release_date = release_date - 100
-where release_date < 1980;
-select * from albums where release_date < 1980;
+UPDATE albums
+SET release_date = release_date - 100
+WHERE release_date < 1980;
+SELECT * from albums where release_date < 1980;
 
-update albums
-set artist = 'Peter Jackson'
-where artist= 'Michael Jackson';
-select * from albums where artist = 'Peter Jackson';
+UPDATE albums
+SET artist = 'Peter Jackson'
+WHERE artist= 'Michael Jackson';
+SELECT * FROM albums WHERE artist = 'Peter Jackson';
