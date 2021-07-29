@@ -15,7 +15,7 @@ WHERE last_name LIKE '%q%';
 SELECT *
 FROM employees
 WHERE gender = 'M'
-  AND
+AND
     (first_name = 'Irena' OR
      first_name = 'Vidya' OR
      first_name = 'Maya');
@@ -23,12 +23,12 @@ WHERE gender = 'M'
 SELECT *
 FROM employees
 WHERE last_name LIKE 'E%'
-   OR last_name LIKE '%e' ORDER BY emp_no DESC;
+OR last_name LIKE '%e' ORDER BY emp_no DESC;
 
 SELECT *
 FROM employees
 WHERE last_name LIKE 'E%'
-  AND last_name LIKE '%e' ORDER BY emp_no DESC;
+AND last_name LIKE '%e' ORDER BY emp_no DESC;
 
 SELECT *
 FROM employees
@@ -37,9 +37,9 @@ WHERE last_name LIKE 'E%e' ORDER BY emp_no DESC;
 SELECT *
 FROM employees
 WHERE last_name LIKE '%q%'
-  AND last_name NOT LIKE 'qu%';
+AND last_name NOT LIKE 'qu%';
 
 SELECT *
 FROM employees
 WHERE last_name LIKE '%q%'
-  AND last_name NOT LIKE '%qu%';
+AND last_name NOT LIKE '%qu%';
