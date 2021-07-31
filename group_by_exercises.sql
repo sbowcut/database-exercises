@@ -30,3 +30,4 @@ WHERE first_name = 'Vidya'
 OR first_name = 'Irena'
 OR first_name = 'Maya'
 GROUP BY gender;
+# get it baby
