@@ -11,18 +11,18 @@ GROUP BY title;
 
 SELECT e.first_name, e.last_name
 FROM dept_manager AS dm
-         JOIN employees e
+         JOIN employees AS e
               ON e.emp_no = dm.emp_no
-         JOIN departments d
+         JOIN departments AS d
               ON d.dept_no = dm.dept_no
 WHERE to_date = '9999-01-01'
   AND e.gender = 'F';
 
 SELECT dept_name
 FROM dept_manager AS dm
-         JOIN employees e
+         JOIN employees AS e
               ON e.emp_no = dm.emp_no
-         JOIN departments d
+         JOIN departments AS d
               ON d.dept_no = dm.dept_no
 WHERE to_date = '9999-01-01'
   AND e.gender = 'F'
