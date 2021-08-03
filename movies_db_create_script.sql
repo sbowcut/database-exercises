@@ -1,5 +1,9 @@
 CREATE DATABASE IF NOT EXISTS movie_db;
+
 USE movie_db;
+
+DROP TABLE IF EXISTS movies;
+
 CREATE TABLE IF NOT EXISTS movies_table
 (
     id       INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -13,3 +17,6 @@ CREATE TABLE IF NOT EXISTS movies_table
     actors   VARCHAR(100),
     PRIMARY KEY (id)
 );
+
+# ALTER TABLE movies
+# ADD UNIQUE (movieTitle);
